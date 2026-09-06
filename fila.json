@@ -1,0 +1,172 @@
+{
+  "fila": [
+    {
+      "peca": "00-expansao-nichos",
+      "quando": "2026-09-06",
+      "publicado": false,
+      "legenda": "A gente começou nas clínicas. Mas o problema nunca foi só delas. 🚀\n\nNa clínica, é o paciente que não confirma. Na imobiliária, é o interessado que manda mensagem no domingo à noite. No consórcio, é a simulação que morre no silêncio. Em todos os três, alguém deixou de responder a tempo.\n\nPor isso o robô não vem pronto para um setor: ele é construído em cima da operação que já roda na sua empresa.\n\nE o seu setor? Se tem gente respondendo a mesma pergunta trinta vezes por dia, cabe aqui.\n\n👉 Conta pra gente como funciona a sua operação — link na bio.\n\n#automacao #inteligenciaartificial #gestao #atendimento",
+      "imagens": [
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/00-expansao-nichos/01.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/00-expansao-nichos/02.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/00-expansao-nichos/03.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/00-expansao-nichos/04.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/00-expansao-nichos/05.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/00-expansao-nichos/06.png"
+      ]
+    },
+    {
+      "peca": "clinica-04-agendas",
+      "quando": "2026-09-09",
+      "publicado": false,
+      "legenda": "Toda falta não avisada é dinheiro que sai da clínica em silêncio. 🕗\n\nA sala fica vazia, o profissional fica parado, o custo fixo continua correndo — e ninguém entrou no lugar, porque ninguém foi avisado a tempo.\n\nO Robô Agenda é o Módulo 04 do ecossistema Roosenvelt: confirma cada consulta, reagenda quem não pode e aciona a lista de espera na hora do cancelamento.\n\n👉 Fale com a gente pelo link da bio.\n\n#gestaoemsaude #consultoriomedico #clinica #automacao",
+      "imagens": [
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/clinica-04-agendas/01.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/clinica-04-agendas/02.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/clinica-04-agendas/03.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/clinica-04-agendas/04.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/clinica-04-agendas/05.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/clinica-04-agendas/06.png"
+      ]
+    },
+    {
+      "peca": "imobiliaria-01-atendimento",
+      "quando": "2026-09-12",
+      "publicado": false,
+      "legenda": "O interessado não espera. 🕗\n\nA maior parte das mensagens sobre um imóvel chega fora do horário comercial — à noite, no fim de semana, no feriado. Quando a resposta sai na segunda de manhã, a pessoa já conversou com outras três imobiliárias.\n\nO Robô Assistente X é o Módulo 01 do ecossistema Roosenvelt: atende na hora, entende o que a pessoa quer, consulta a agenda do corretor e marca a visita. Depois passa o bastão, com o histórico inteiro da conversa.\n\nSem plantão. Sem corretor de sobreaviso. Sem lead esfriando na caixa de entrada.\n\n👉 Fale com a gente pelo link da bio.\n\n#imobiliaria #corretordeimoveis #automacao #inteligenciaartificial",
+      "imagens": [
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/imobiliaria-01-atendimento/01.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/imobiliaria-01-atendimento/02.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/imobiliaria-01-atendimento/03.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/imobiliaria-01-atendimento/04.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/imobiliaria-01-atendimento/05.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/imobiliaria-01-atendimento/06.png"
+      ]
+    },
+    {
+      "peca": "consorcio-03-vendas",
+      "quando": "2026-09-15",
+      "publicado": false,
+      "legenda": "\"Vou pensar e te retorno.\" 💭\n\nVocê já sabe como essa frase termina. A simulação foi feita, a parcela cabia no bolso, o cliente saiu interessado — e ninguém voltou a falar com ele. Não por descaso: porque o vendedor tem trinta conversas abertas ao mesmo tempo e o dia tem oito horas.\n\nO Robô Vendedor é o Módulo 03 do ecossistema Roosenvelt. Ele conduz a negociação inteira: refaz a simulação, responde a objeção, retoma quem sumiu e avisa o vendedor no momento em que a conversa esquenta de novo.\n\nO vendedor deixa de perseguir e passa a fechar.\n\n👉 Fale com a gente pelo link da bio.\n\n#consorcio #vendas #automacao #inteligenciaartificial #gestao",
+      "imagens": [
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/consorcio-03-vendas/01.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/consorcio-03-vendas/02.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/consorcio-03-vendas/03.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/consorcio-03-vendas/04.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/consorcio-03-vendas/05.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/consorcio-03-vendas/06.png"
+      ]
+    },
+    {
+      "peca": "clinica-05-retencao",
+      "quando": "2026-09-18",
+      "publicado": false,
+      "legenda": "O paciente sumiu depois da primeira consulta. E ninguém percebeu. 💭\n\nRetorno não remarcado, tratamento interrompido no meio, exame que nunca foi buscar. Não é falta de interesse — é falta de alguém pra lembrar.\n\nO Robô Memória é o Módulo 05 do ecossistema Roosenvelt: retoma conversa parada, lembra do retorno e faz a pesquisa de satisfação que ninguém tem tempo de fazer.\n\n👉 Fale com a gente pelo link da bio.\n\n#gestaoemsaude #fidelizacao #clinica #automacao",
+      "imagens": [
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/clinica-05-retencao/01.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/clinica-05-retencao/02.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/clinica-05-retencao/03.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/clinica-05-retencao/04.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/clinica-05-retencao/05.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/clinica-05-retencao/06.png"
+      ]
+    },
+    {
+      "peca": "imobiliaria-02-preclientes",
+      "quando": "2026-09-21",
+      "publicado": false,
+      "legenda": "De onde veio o seu último cliente? 🤔\n\nSe a resposta for \"acho que foi do Instagram\", você está decidindo investimento no palpite. E palpite em mídia custa caro.\n\nO Robô Filtro é o Módulo 02 do ecossistema Roosenvelt: qualifica o lead, registra a origem no CRM antes de ele virar cliente, e conduz até a visita.\n\n👉 Fale com a gente pelo link da bio.\n\n#imobiliaria #corretordeimoveis #crm #automacao",
+      "imagens": [
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/imobiliaria-02-preclientes/01.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/imobiliaria-02-preclientes/02.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/imobiliaria-02-preclientes/03.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/imobiliaria-02-preclientes/04.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/imobiliaria-02-preclientes/05.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/imobiliaria-02-preclientes/06.png"
+      ]
+    },
+    {
+      "peca": "consorcio-06-financeiro",
+      "quando": "2026-09-24",
+      "publicado": false,
+      "legenda": "A cota atrasou. E ninguém cobrou. 💸\n\nNão por descaso: porque cobrar exige tempo, jeito e constância — e a equipe tem coisa demais na frente. Aí a inadimplência vira desistência, e a desistência vira grupo desfalcado.\n\nO Robô Gestor FIN é o Módulo 06 do ecossistema Roosenvelt: gera a cobrança, confere o pagamento, avisa quem precisa saber e registra tudo no mesmo fluxo.\n\n👉 Fale com a gente pelo link da bio.\n\n#consorcio #financeiro #inadimplencia #automacao",
+      "imagens": [
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/consorcio-06-financeiro/01.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/consorcio-06-financeiro/02.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/consorcio-06-financeiro/03.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/consorcio-06-financeiro/04.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/consorcio-06-financeiro/05.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/consorcio-06-financeiro/06.png"
+      ]
+    },
+    {
+      "peca": "clinica-01-atendimento",
+      "quando": "2026-09-27",
+      "publicado": false,
+      "legenda": "Quem responde o WhatsApp da sua clínica às 22h? 🌙\n\nA maior parte das mensagens de paciente chega fora do horário comercial. Quando a resposta sai na manhã seguinte, boa parte já marcou em outro lugar.\n\nO Robô Assistente X é o Módulo 01 do ecossistema Roosenvelt: atende na hora, entende o que a pessoa quer e encaminha pro módulo certo, sem perder o contexto.\n\n👉 Fale com a gente pelo link da bio.\n\n#gestaoemsaude #consultoriomedico #atendimento #automacao",
+      "imagens": [
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/clinica-01-atendimento/01.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/clinica-01-atendimento/02.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/clinica-01-atendimento/03.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/clinica-01-atendimento/04.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/clinica-01-atendimento/05.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/clinica-01-atendimento/06.png"
+      ]
+    },
+    {
+      "peca": "imobiliaria-03-vendas",
+      "quando": "2026-09-30",
+      "publicado": false,
+      "legenda": "A proposta está parada há duas semanas. E agora? 📋\n\nNinguém recusou. Só ninguém voltou a falar. E quanto mais tempo passa, mais a negociação esfria — até virar aquele lead que todo mundo lembra e ninguém retoma.\n\nO Robô Vendedor é o Módulo 03 do ecossistema Roosenvelt: conduz a negociação, responde objeção, retoma o que parou e chama o corretor na hora certa.\n\n👉 Fale com a gente pelo link da bio.\n\n#imobiliaria #corretordeimoveis #vendas #automacao",
+      "imagens": [
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/imobiliaria-03-vendas/01.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/imobiliaria-03-vendas/02.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/imobiliaria-03-vendas/03.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/imobiliaria-03-vendas/04.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/imobiliaria-03-vendas/05.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/imobiliaria-03-vendas/06.png"
+      ]
+    },
+    {
+      "peca": "consorcio-02-preclientes",
+      "quando": "2026-10-03",
+      "publicado": false,
+      "legenda": "O lead chegou no sábado. E foi atendido na segunda. ⏳\n\nConsórcio é decisão de impulso somada a decisão de bolso: a pessoa pesquisa quando a vontade bate, geralmente fora do horário comercial. Quem responde primeiro costuma ser quem fecha.\n\nO Robô Filtro é o Módulo 02 do ecossistema Roosenvelt: atende na hora, qualifica, registra a origem e entrega o lead pronto pro vendedor.\n\n👉 Fale com a gente pelo link da bio.\n\n#consorcio #vendas #leads #automacao",
+      "imagens": [
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/consorcio-02-preclientes/01.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/consorcio-02-preclientes/02.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/consorcio-02-preclientes/03.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/consorcio-02-preclientes/04.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/consorcio-02-preclientes/05.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/consorcio-02-preclientes/06.png"
+      ]
+    },
+    {
+      "peca": "imobiliaria-04-agendas",
+      "quando": "2026-10-06",
+      "publicado": false,
+      "legenda": "A visita estava marcada. O cliente foi. O corretor não. 🔑\n\nNão é descaso: é agenda em três lugares, confirmação que ninguém fez e um imprevisto que ninguém avisou. O custo é a confiança — e ela não volta com pedido de desculpa.\n\nO Robô Agenda é o Módulo 04 do ecossistema Roosenvelt: marca, confirma dos dois lados, lembra na véspera e remarca quando alguém não pode.\n\n👉 Fale com a gente pelo link da bio.\n\n#imobiliaria #corretordeimoveis #agenda #automacao",
+      "imagens": [
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/imobiliaria-04-agendas/01.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/imobiliaria-04-agendas/02.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/imobiliaria-04-agendas/03.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/imobiliaria-04-agendas/04.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/imobiliaria-04-agendas/05.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/imobiliaria-04-agendas/06.png"
+      ]
+    },
+    {
+      "peca": "consorcio-05-retencao",
+      "quando": "2026-10-09",
+      "publicado": false,
+      "legenda": "Ele parou de atender suas ligações. Mas ainda quer a carta. 📞\n\nCliente de consórcio não desiste de um dia pro outro: ele vai ficando sem informação, sem lembrete e sem motivo pra continuar. Aí a cota atrasa, e o constrangimento faz o resto.\n\nO Robô Memória é o Módulo 05 do ecossistema Roosenvelt: mantém o cliente informado, retoma conversa parada e avisa do que importa antes de virar problema.\n\n👉 Fale com a gente pelo link da bio.\n\n#consorcio #retencao #relacionamento #automacao",
+      "imagens": [
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/consorcio-05-retencao/01.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/consorcio-05-retencao/02.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/consorcio-05-retencao/03.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/consorcio-05-retencao/04.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/consorcio-05-retencao/05.png",
+        "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/consorcio-05-retencao/06.png"
+      ]
+    }
+  ]
+}

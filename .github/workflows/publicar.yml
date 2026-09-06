@@ -1,0 +1,39 @@
+name: Publicar no Instagram
+
+# Roda todo dia. Se nao houver peca vencida na fila, sai sem fazer nada -
+# entao rodar diariamente e barato e mantem o atraso pequeno quando algo falha.
+on:
+  schedule:
+    - cron: "0 12 * * *"     # 12h UTC = 9h em Brasilia
+  workflow_dispatch:          # permite disparar na mao pelo site do GitHub
+
+permissions:
+  contents: write             # para gravar a fila.json depois de publicar
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Publicar a proxima peca vencida
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          META_TOKEN: ${{ secrets.META_TOKEN }}
+        run: python publicar_instagram.py
+
+      - name: Registrar o que foi publicado
+        run: |
+          if git diff --quiet fila.json; then
+            echo "nada mudou na fila"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add fila.json
+          git commit -m "Publica proxima peca da fila"
+          git push
