@@ -105,6 +105,17 @@ def publicar(item: dict, ig_user: str, token: str, teste: bool = False) -> str |
         "access_token": token,
     })["id"]
     print(f"    publicado: {publicado}")
+
+    # confere com a propria Meta o que foi ao ar - link e legenda gravada
+    url = (f"{BASE}/{publicado}?fields=permalink,media_type,caption,timestamp"
+           f"&access_token={token}")
+    with urlopen(url, timeout=30) as r:
+        post = json.loads(r.read())
+    print(f"    link: {post.get('permalink')}")
+    print(f"    tipo: {post.get('media_type')} · {post.get('timestamp')}")
+    print("    legenda gravada no Instagram:")
+    for linha in (post.get("caption") or "").split("\n"):
+        print(f"      | {linha}")
     return publicado
 
 
