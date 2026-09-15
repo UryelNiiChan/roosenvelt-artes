@@ -59,7 +59,7 @@ def _esperar_pronto(container: str, token: str) -> None:
         time.sleep(3)
 
 
-def publicar(item: dict, ig_user: str, token: str) -> str:
+def publicar(item: dict, ig_user: str, token: str, teste: bool = False) -> str | None:
     imagens = item["imagens"]
     if not 2 <= len(imagens) <= 10:
         raise RuntimeError(f"carrossel aceita de 2 a 10 imagens, veio {len(imagens)}")
@@ -92,6 +92,13 @@ def publicar(item: dict, ig_user: str, token: str) -> str:
 
     _esperar_pronto(pai, token)
 
+    if teste:
+        # Tudo que pode dar errado ja aconteceu ate aqui: token, permissao,
+        # URL da imagem, formato, legenda. Container nao publicado expira
+        # sozinho em 24h e ninguem ve.
+        print("    TESTE: carrossel pronto para publicar - parando antes de publicar")
+        return None
+
     # 3. publica
     publicado = _post(f"{ig_user}/media_publish", {
         "creation_id": pai,
@@ -110,9 +117,14 @@ def main() -> None:
 
     dados = json.loads(FILA.read_text(encoding="utf-8"))
     hoje = date.today().isoformat()
+    teste = os.environ.get("MODO", "publicar") == "teste"
 
-    vencidas = [i for i in dados["fila"]
-                if not i["publicado"] and i["quando"] <= hoje]
+    pendentes = [i for i in dados["fila"] if not i["publicado"]]
+    vencidas = [i for i in pendentes if i["quando"] <= hoje]
+    if teste:
+        # no teste vale a proxima da fila, vencida ou nao
+        vencidas = pendentes[:1]
+        print("  MODO TESTE: nada sera publicado")
     if not vencidas:
         print("  nada vencido hoje")
         return
@@ -123,7 +135,10 @@ def main() -> None:
     if len(vencidas) > 1:
         print(f"  {len(vencidas)} vencidas; publicando so a primeira")
 
-    id_post = publicar(item, ig_user, token)
+    id_post = publicar(item, ig_user, token, teste)
+    if teste:
+        print(f"{chr(10)}  teste concluido: token, permissoes e artes funcionando")
+        return
     item["publicado"] = True
     item["publicado_em"] = hoje
     item["id_post"] = id_post

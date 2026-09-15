@@ -6,6 +6,12 @@ on:
   schedule:
     - cron: "0 12 * * *"     # 12h UTC = 9h em Brasilia
   workflow_dispatch:          # permite disparar na mao pelo site do GitHub
+    inputs:
+      modo:
+        description: "teste = faz tudo menos publicar · publicar = vai ao ar"
+        type: choice
+        options: [teste, publicar]
+        default: teste        # disparo manual sem escolher nao publica por acidente
 
 permissions:
   contents: write             # para gravar a fila.json depois de publicar
@@ -24,6 +30,8 @@ jobs:
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           META_TOKEN: ${{ secrets.META_TOKEN }}
+          # no agendamento nao existe input: cai no padrao "publicar"
+          MODO: ${{ inputs.modo || 'publicar' }}
         run: python publicar_instagram.py
 
       - name: Registrar o que foi publicado
