@@ -3,7 +3,7 @@
     {
       "peca": "00-expansao-nichos",
       "quando": "2026-09-15",
-      "publicado": false,
+      "publicado": true,
       "legenda": "A gente começou nas clínicas. Mas o problema nunca foi só delas. 🚀\n\nNa clínica, é o paciente que não confirma. Na imobiliária, é o interessado que manda mensagem no domingo à noite. No consórcio, é a simulação que morre no silêncio. Em todos os três, alguém deixou de responder a tempo.\n\nPor isso o robô não vem pronto para um setor: ele é construído em cima da operação que já roda na sua empresa.\n\nE o seu setor? Se tem gente respondendo a mesma pergunta trinta vezes por dia, cabe aqui.\n\n👉 Conta pra gente como funciona a sua operação — link na bio.\n\n#automacao #inteligenciaartificial #gestao #atendimento",
       "imagens": [
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/00-expansao-nichos/01.jpg",
@@ -12,7 +12,9 @@
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/00-expansao-nichos/04.jpg",
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/00-expansao-nichos/05.jpg",
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/00-expansao-nichos/06.jpg"
-      ]
+      ],
+      "publicado_em": "2026-09-15",
+      "id_post": "18075192605710634"
     },
     {
       "peca": "clinica-04-agendas",
