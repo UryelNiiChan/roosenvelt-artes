@@ -18,6 +18,7 @@ import sys
 import time
 from datetime import date
 from pathlib import Path
+from urllib.error import HTTPError
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
@@ -26,15 +27,36 @@ BASE = f"https://graph.facebook.com/{VERSAO}"
 FILA = Path(__file__).parent / "fila.json"
 
 # Entre criar o container e publicar, a Meta precisa buscar a imagem na URL.
-# Publicar cedo demais devolve "media not ready".
-ESPERA_ENTRE_ETAPAS = 5
+# Publicar cedo demais devolve "media not ready" - por isso consulta o status.
+LIMITE_ESPERA = 120      # segundos, por container
 
 
 def _post(caminho: str, dados: dict) -> dict:
     corpo = urlencode(dados).encode()
     req = Request(f"{BASE}/{caminho}", data=corpo, method="POST")
-    with urlopen(req, timeout=60) as r:
-        return json.loads(r.read())
+    try:
+        with urlopen(req, timeout=60) as r:
+            return json.loads(r.read())
+    except HTTPError as erro:
+        # sem isso o log mostra so "HTTP 400", sem dizer o que a Meta recusou
+        raise RuntimeError(f"Meta recusou {caminho}: {erro.read().decode()}") from None
+
+
+def _esperar_pronto(container: str, token: str) -> None:
+    """Aguarda o container sair de IN_PROGRESS. ERROR ou EXPIRED param tudo."""
+    inicio = time.time()
+    while True:
+        url = f"{BASE}/{container}?fields=status_code,status&access_token={token}"
+        with urlopen(url, timeout=30) as r:
+            dados = json.loads(r.read())
+        estado = dados.get("status_code")
+        if estado == "FINISHED":
+            return
+        if estado in ("ERROR", "EXPIRED"):
+            raise RuntimeError(f"container {container} falhou: {dados.get('status')}")
+        if time.time() - inicio > LIMITE_ESPERA:
+            raise RuntimeError(f"container {container} nao ficou pronto em {LIMITE_ESPERA}s")
+        time.sleep(3)
 
 
 def publicar(item: dict, ig_user: str, token: str) -> str:
@@ -55,7 +77,9 @@ def publicar(item: dict, ig_user: str, token: str) -> str:
         filhos.append(r["id"])
         print(f"    {i}/{len(imagens)} container {r['id']}")
 
-    time.sleep(ESPERA_ENTRE_ETAPAS)
+    for filho in filhos:
+        _esperar_pronto(filho, token)
+    print("    imagens processadas pela Meta")
 
     # 2. o container do carrossel, com a legenda
     pai = _post(f"{ig_user}/media", {
@@ -66,7 +90,7 @@ def publicar(item: dict, ig_user: str, token: str) -> str:
     })["id"]
     print(f"    carrossel {pai}")
 
-    time.sleep(ESPERA_ENTRE_ETAPAS)
+    _esperar_pronto(pai, token)
 
     # 3. publica
     publicado = _post(f"{ig_user}/media_publish", {
