@@ -19,7 +19,7 @@
     {
       "peca": "clinica-04-agendas",
       "quando": "2026-09-18",
-      "publicado": false,
+      "publicado": true,
       "legenda": "Toda falta não avisada é dinheiro que sai da clínica em silêncio. 🕗\n\nA sala fica vazia, o profissional fica parado, o custo fixo continua correndo — e ninguém entrou no lugar, porque ninguém foi avisado a tempo.\n\nO Robô Agenda é o Módulo 04 do ecossistema Roosenvelt: confirma cada consulta, reagenda quem não pode e aciona a lista de espera na hora do cancelamento.\n\n👉 Fale com a gente pelo link da bio.\n\n#gestaoemsaude #consultoriomedico #clinica #automacao",
       "imagens": [
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/clinica-04-agendas/01.jpg",
@@ -28,7 +28,9 @@
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/clinica-04-agendas/04.jpg",
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/clinica-04-agendas/05.jpg",
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/clinica-04-agendas/06.jpg"
-      ]
+      ],
+      "publicado_em": "2026-09-18",
+      "id_post": "18147152647558596"
     },
     {
       "peca": "imobiliaria-01-atendimento",
