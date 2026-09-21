@@ -35,7 +35,7 @@
     {
       "peca": "imobiliaria-01-atendimento",
       "quando": "2026-09-21",
-      "publicado": false,
+      "publicado": true,
       "legenda": "O interessado não espera. 🕗\n\nA maior parte das mensagens sobre um imóvel chega fora do horário comercial — à noite, no fim de semana, no feriado. Quando a resposta sai na segunda de manhã, a pessoa já conversou com outras três imobiliárias.\n\nO Robô Assistente X é o Módulo 01 do ecossistema Roosenvelt: atende na hora, entende o que a pessoa quer, consulta a agenda do corretor e marca a visita. Depois passa o bastão, com o histórico inteiro da conversa.\n\nSem plantão. Sem corretor de sobreaviso. Sem lead esfriando na caixa de entrada.\n\n👉 Fale com a gente pelo link da bio.\n\n#imobiliaria #corretordeimoveis #automacao #inteligenciaartificial",
       "imagens": [
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/imobiliaria-01-atendimento/01.jpg",
@@ -44,7 +44,9 @@
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/imobiliaria-01-atendimento/04.jpg",
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/imobiliaria-01-atendimento/05.jpg",
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/imobiliaria-01-atendimento/06.jpg"
-      ]
+      ],
+      "publicado_em": "2026-09-21",
+      "id_post": "18127315981695935"
     },
     {
       "peca": "consorcio-03-vendas",
