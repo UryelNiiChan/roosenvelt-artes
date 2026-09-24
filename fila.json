@@ -51,7 +51,7 @@
     {
       "peca": "consorcio-03-vendas",
       "quando": "2026-09-24",
-      "publicado": false,
+      "publicado": true,
       "legenda": "\"Vou pensar e te retorno.\" 💭\n\nVocê já sabe como essa frase termina. A simulação foi feita, a parcela cabia no bolso, o cliente saiu interessado — e ninguém voltou a falar com ele. Não por descaso: porque o vendedor tem trinta conversas abertas ao mesmo tempo e o dia tem oito horas.\n\nO Robô Vendedor é o Módulo 03 do ecossistema Roosenvelt. Ele conduz a negociação inteira: refaz a simulação, responde a objeção, retoma quem sumiu e avisa o vendedor no momento em que a conversa esquenta de novo.\n\nO vendedor deixa de perseguir e passa a fechar.\n\n👉 Fale com a gente pelo link da bio.\n\n#consorcio #vendas #automacao #inteligenciaartificial #gestao",
       "imagens": [
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/consorcio-03-vendas/01.jpg",
@@ -60,7 +60,9 @@
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/consorcio-03-vendas/04.jpg",
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/consorcio-03-vendas/05.jpg",
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/consorcio-03-vendas/06.jpg"
-      ]
+      ],
+      "publicado_em": "2026-09-24",
+      "id_post": "18109664389886750"
     },
     {
       "peca": "clinica-05-retencao",
