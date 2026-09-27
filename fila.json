@@ -67,7 +67,7 @@
     {
       "peca": "clinica-05-retencao",
       "quando": "2026-09-27",
-      "publicado": false,
+      "publicado": true,
       "legenda": "O paciente sumiu depois da primeira consulta. E ninguém percebeu. 💭\n\nRetorno não remarcado, tratamento interrompido no meio, exame que nunca foi buscar. Não é falta de interesse — é falta de alguém pra lembrar.\n\nO Robô Memória é o Módulo 05 do ecossistema Roosenvelt: retoma conversa parada, lembra do retorno e faz a pesquisa de satisfação que ninguém tem tempo de fazer.\n\n👉 Fale com a gente pelo link da bio.\n\n#gestaoemsaude #fidelizacao #clinica #automacao",
       "imagens": [
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/clinica-05-retencao/01.jpg",
@@ -76,7 +76,9 @@
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/clinica-05-retencao/04.jpg",
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/clinica-05-retencao/05.jpg",
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/clinica-05-retencao/06.jpg"
-      ]
+      ],
+      "publicado_em": "2026-09-27",
+      "id_post": "18473759881119518"
     },
     {
       "peca": "imobiliaria-02-preclientes",
