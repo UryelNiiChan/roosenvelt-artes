@@ -83,7 +83,7 @@
     {
       "peca": "imobiliaria-02-preclientes",
       "quando": "2026-09-30",
-      "publicado": false,
+      "publicado": true,
       "legenda": "De onde veio o seu último cliente? 🤔\n\nSe a resposta for \"acho que foi do Instagram\", você está decidindo investimento no palpite. E palpite em mídia custa caro.\n\nO Robô Filtro é o Módulo 02 do ecossistema Roosenvelt: qualifica o lead, registra a origem no CRM antes de ele virar cliente, e conduz até a visita.\n\n👉 Fale com a gente pelo link da bio.\n\n#imobiliaria #corretordeimoveis #crm #automacao",
       "imagens": [
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/imobiliaria-02-preclientes/01.jpg",
@@ -92,7 +92,9 @@
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/imobiliaria-02-preclientes/04.jpg",
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/imobiliaria-02-preclientes/05.jpg",
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/imobiliaria-02-preclientes/06.jpg"
-      ]
+      ],
+      "publicado_em": "2026-09-30",
+      "id_post": "17995616787033918"
     },
     {
       "peca": "consorcio-06-financeiro",
