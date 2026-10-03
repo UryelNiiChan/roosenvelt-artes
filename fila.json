@@ -99,7 +99,7 @@
     {
       "peca": "consorcio-06-financeiro",
       "quando": "2026-10-03",
-      "publicado": false,
+      "publicado": true,
       "legenda": "A cota atrasou. E ninguém cobrou. 💸\n\nNão por descaso: porque cobrar exige tempo, jeito e constância — e a equipe tem coisa demais na frente. Aí a inadimplência vira desistência, e a desistência vira grupo desfalcado.\n\nO Robô Gestor FIN é o Módulo 06 do ecossistema Roosenvelt: gera a cobrança, confere o pagamento, avisa quem precisa saber e registra tudo no mesmo fluxo.\n\n👉 Fale com a gente pelo link da bio.\n\n#consorcio #financeiro #inadimplencia #automacao",
       "imagens": [
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/consorcio-06-financeiro/01.jpg",
@@ -108,7 +108,9 @@
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/consorcio-06-financeiro/04.jpg",
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/consorcio-06-financeiro/05.jpg",
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/consorcio-06-financeiro/06.jpg"
-      ]
+      ],
+      "publicado_em": "2026-10-03",
+      "id_post": "18416268859157476"
     },
     {
       "peca": "clinica-01-atendimento",
