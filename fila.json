@@ -115,7 +115,7 @@
     {
       "peca": "clinica-01-atendimento",
       "quando": "2026-10-06",
-      "publicado": false,
+      "publicado": true,
       "legenda": "Quem responde o WhatsApp da sua clínica às 22h? 🌙\n\nA maior parte das mensagens de paciente chega fora do horário comercial. Quando a resposta sai na manhã seguinte, boa parte já marcou em outro lugar.\n\nO Robô Assistente X é o Módulo 01 do ecossistema Roosenvelt: atende na hora, entende o que a pessoa quer e encaminha pro módulo certo, sem perder o contexto.\n\n👉 Fale com a gente pelo link da bio.\n\n#gestaoemsaude #consultoriomedico #atendimento #automacao",
       "imagens": [
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/clinica-01-atendimento/01.jpg",
@@ -124,7 +124,9 @@
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/clinica-01-atendimento/04.jpg",
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/clinica-01-atendimento/05.jpg",
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/clinica-01-atendimento/06.jpg"
-      ]
+      ],
+      "publicado_em": "2026-10-06",
+      "id_post": "18108481988612222"
     },
     {
       "peca": "imobiliaria-03-vendas",
