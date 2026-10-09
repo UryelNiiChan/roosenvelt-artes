@@ -131,7 +131,7 @@
     {
       "peca": "imobiliaria-03-vendas",
       "quando": "2026-10-09",
-      "publicado": false,
+      "publicado": true,
       "legenda": "A proposta está parada há duas semanas. E agora? 📋\n\nNinguém recusou. Só ninguém voltou a falar. E quanto mais tempo passa, mais a negociação esfria — até virar aquele lead que todo mundo lembra e ninguém retoma.\n\nO Robô Vendedor é o Módulo 03 do ecossistema Roosenvelt: conduz a negociação, responde objeção, retoma o que parou e chama o corretor na hora certa.\n\n👉 Fale com a gente pelo link da bio.\n\n#imobiliaria #corretordeimoveis #vendas #automacao",
       "imagens": [
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/imobiliaria-03-vendas/01.jpg",
@@ -140,7 +140,9 @@
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/imobiliaria-03-vendas/04.jpg",
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/imobiliaria-03-vendas/05.jpg",
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/imobiliaria-03-vendas/06.jpg"
-      ]
+      ],
+      "publicado_em": "2026-10-09",
+      "id_post": "18096740153533036"
     },
     {
       "peca": "consorcio-02-preclientes",
