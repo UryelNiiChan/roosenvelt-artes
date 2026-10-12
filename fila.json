@@ -147,7 +147,7 @@
     {
       "peca": "consorcio-02-preclientes",
       "quando": "2026-10-12",
-      "publicado": false,
+      "publicado": true,
       "legenda": "O lead chegou no sábado. E foi atendido na segunda. ⏳\n\nConsórcio é decisão de impulso somada a decisão de bolso: a pessoa pesquisa quando a vontade bate, geralmente fora do horário comercial. Quem responde primeiro costuma ser quem fecha.\n\nO Robô Filtro é o Módulo 02 do ecossistema Roosenvelt: atende na hora, qualifica, registra a origem e entrega o lead pronto pro vendedor.\n\n👉 Fale com a gente pelo link da bio.\n\n#consorcio #vendas #leads #automacao",
       "imagens": [
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/consorcio-02-preclientes/01.jpg",
@@ -156,7 +156,9 @@
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/consorcio-02-preclientes/04.jpg",
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/consorcio-02-preclientes/05.jpg",
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/consorcio-02-preclientes/06.jpg"
-      ]
+      ],
+      "publicado_em": "2026-10-12",
+      "id_post": "18628649047031378"
     },
     {
       "peca": "imobiliaria-04-agendas",
