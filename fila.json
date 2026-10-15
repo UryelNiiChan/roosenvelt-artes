@@ -163,7 +163,7 @@
     {
       "peca": "imobiliaria-04-agendas",
       "quando": "2026-10-15",
-      "publicado": false,
+      "publicado": true,
       "legenda": "A visita estava marcada. O cliente foi. O corretor não. 🔑\n\nNão é descaso: é agenda em três lugares, confirmação que ninguém fez e um imprevisto que ninguém avisou. O custo é a confiança — e ela não volta com pedido de desculpa.\n\nO Robô Agenda é o Módulo 04 do ecossistema Roosenvelt: marca, confirma dos dois lados, lembra na véspera e remarca quando alguém não pode.\n\n👉 Fale com a gente pelo link da bio.\n\n#imobiliaria #corretordeimoveis #agenda #automacao",
       "imagens": [
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/imobiliaria-04-agendas/01.jpg",
@@ -172,7 +172,9 @@
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/imobiliaria-04-agendas/04.jpg",
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/imobiliaria-04-agendas/05.jpg",
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/imobiliaria-04-agendas/06.jpg"
-      ]
+      ],
+      "publicado_em": "2026-10-15",
+      "id_post": "18178955440447410"
     },
     {
       "peca": "consorcio-05-retencao",
