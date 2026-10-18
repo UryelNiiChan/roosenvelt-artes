@@ -179,7 +179,7 @@
     {
       "peca": "consorcio-05-retencao",
       "quando": "2026-10-18",
-      "publicado": false,
+      "publicado": true,
       "legenda": "Ele parou de atender suas ligações. Mas ainda quer a carta. 📞\n\nCliente de consórcio não desiste de um dia pro outro: ele vai ficando sem informação, sem lembrete e sem motivo pra continuar. Aí a cota atrasa, e o constrangimento faz o resto.\n\nO Robô Memória é o Módulo 05 do ecossistema Roosenvelt: mantém o cliente informado, retoma conversa parada e avisa do que importa antes de virar problema.\n\n👉 Fale com a gente pelo link da bio.\n\n#consorcio #retencao #relacionamento #automacao",
       "imagens": [
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/consorcio-05-retencao/01.jpg",
@@ -188,7 +188,9 @@
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/consorcio-05-retencao/04.jpg",
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/consorcio-05-retencao/05.jpg",
         "https://raw.githubusercontent.com/UryelNiiChan/roosenvelt-artes/main/artes/consorcio-05-retencao/06.jpg"
-      ]
+      ],
+      "publicado_em": "2026-10-18",
+      "id_post": "18128624225306465"
     }
   ]
 }
